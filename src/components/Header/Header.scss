@@ -1,0 +1,22 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgb(61, 58, 58);
+  font-size: 2rem;
+  text-transform: uppercase;
+  .active-link {
+    text-decoration-line: underline;
+    color: rgb(182, 176, 176);
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
